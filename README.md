@@ -9,7 +9,7 @@ Currently, there are two kind of comparisons:
 
 ## Prerequisites
 
-There is quite a lot to do to make use of every feature, but for a start running `git clone git@github.com:Ichaelus/RubySuite.git` and configuring  `interpreters.json` might do the trick. It controls which interpreters are evaluated (in relation to a ground truth called _base_) based on the [_unpaired Students t-test_](https://en.wikipedia.org/wiki/Student%27s_t-test). For each entry, you can specify:
+There is quite a lot to do to make use of every feature, but for a start running `git clone git@github.com:panetun/RubySuite.git` and configuring  `interpreters.json` might do the trick. It controls which interpreters are evaluated (in relation to a ground truth called _base_) based on the [_unpaired Students t-test_](https://en.wikipedia.org/wiki/Student%27s_t-test). For each entry, you can specify:
 
 * A **name**, e.g. `mri 1.8.7`, used internally to plot graphs and distinguish interpreters.
 * An **rbenv interpreter name**, e.g. `1.8.7`.  Make sure it is installed on your local machine by calling `rbenv list`.
